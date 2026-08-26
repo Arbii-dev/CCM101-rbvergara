@@ -1,7 +1,5 @@
 # Infrastructure Report - Killercoda Environment
 
-This report documents the system specifications and configurations of the active Killercoda Linux environment.
-
 ## System Overview
 
 | Metric / Parameter | Specification / Value |
