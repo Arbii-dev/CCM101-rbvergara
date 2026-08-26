@@ -43,9 +43,7 @@ every design decision.
 ---
 
 ## Tools Used
-* **KillerCoda:** Interactive browser-based Linux and Kubernetes playground environment.
-* **Linux Terminal / Bash:** Command-line interface used for system diagnostics and data gathering.
-* **Markdown:** Lightweight markup language used for creating clean, professional technical reports.
+* KillerCoda, Github, Markdown, Draw.io
 
 ---
 
@@ -61,13 +59,13 @@ every design decision.
 ---
 
 ## Skills Learned
-* Inspecting hardware and software parameters in a Linux operating system via the command line.
-* Translating physical server properties into abstracted cloud infrastructure components (Compute, Storage, Networking).
-* Evaluating and contrasting service catalogs across major public cloud providers (AWS, Azure, and GCP).
-* Structuring clean, professional engineering documentation using Markdown files.
+* Inspecting hardware and software data in a Linux operating system via the command line.
+* Physically understanding abstract cloud computing components (Compute, Storage, Networking).
+* Understanding and visualizing cloud infrastructure via making thy own diagram.
+* Comparing and contrasting services across major public cloud providers (AWS, Azure, and GCP).
 
 ---
 
 ## Challenges Encountered
-* Navigating minor syntax changes or missing command flags (such as differentiating between `uname -r` and `uname`) during initial system probing.
-* Synthesizing extensive cloud provider catalogs into a concise, high-level comparison table without getting lost in specialized sub-services.
+* Minor syntax changes or missing command flags (such as differentiating between `uname -r` and `uname`) during initial system exploration.
+* Understanding and differentiating the three common cloud service providers without being lost in miniscule features and focusing on integral information
