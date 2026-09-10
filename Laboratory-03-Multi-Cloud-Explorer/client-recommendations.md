@@ -19,3 +19,14 @@
 * **Recommended Platform:** Amazon Web Services (AWS)
 * **Explanation:** AWS offers the most mature global infrastructure, featuring massive multi-region availability and robust content delivery networks essential for a worldwide e-commerce platform. Its advanced auto-scaling tools guarantee that the online store can automatically handle massive flash sales or traffic surges without downtime.
 * **Services:** Amazon EC2 with Auto Scaling, Amazon CloudFront, and Amazon Aurora.
+
+# Multi-Cloud Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+| :--- | :--- | :--- |
+| **Startup Company** | GCP | Flexible scaling and startup credits. |
+| **Enterprise Organization** | AWS | Deepest service variety and maturity. |
+| **Microsoft Environment** | Azure | Native Windows and Active Directory integration. |
+| **AI / Machine Learning** | GCP | Advanced Vertex AI and custom TPUs . |
+| **Kubernetes Deployment** | GCP | Most mature managed Kubernetes (GKE) . |
+| **Global Web Application** | AWS | Robust global infrastructure and scaling . |
