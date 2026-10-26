@@ -1,1 +1,9 @@
+# Mission Reflection: Laboratory 6
 
+Stepping into multi-container deployments for this mission really shifted my perspective on what cloud engineering is all about. Writing a `docker-compose.yml` file makes a cloud engineer's job infinitely easier by replacing repetitive, error-prone manual terminal commands with true Infrastructure as Code. Instead of launching isolated containers one by one and manually wiring up networking, a single declarative YAML file orchestrates the entire multi-tier stack simultaneously. 
+
+Working with YAML, however, comes with strict formatting rules. If you make an indentation error—like using a stray Tab instead of spaces—the parser breaks completely, and Docker Compose will refuse to read the file, highlighting why precision is vital in automation. To keep these configurations secure and flexible, we utilized environment variables like `MYSQL_PASSWORD` and `MYSQL_USER`. Hardcoding credentials is a major security risk, whereas environment variables inject sensitive data safely at runtime while allowing the same template to be reused across different environments.
+
+Actually deploying a fully functional enterprise cloud storage system like Nextcloud in just a few minutes felt incredible. Seeing a complex web application link seamlessly to a MariaDB database over a private internal network showed me how powerful container orchestration truly is. 
+
+Looking back, my understanding of Cloud Computing has evolved drastically since Mission 1. Back then, I was focused on basic container operations and manual server setups. Now, I see the big picture: cloud engineering isn't about typing commands into a single terminal window; it is about designing scalable, modular, and automated architectures that can be spun up, managed, and torn down reliably as cohesive systems.
